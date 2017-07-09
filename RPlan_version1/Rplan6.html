@@ -1,0 +1,41 @@
+<!-- Pre-Bootstrap working version of RPlan. Keep with Rplan6.js and styles4.css -->
+
+<html>
+    <head>     
+        
+        <!-- Javascript for drawing tool 
+        <script type="text/javascript" language="javascript" src="http://peter-ertl.com/jsme/JSME_2016-05-21/jsme/jsme.nocache.js"></script>    --> 
+        <script type="text/javascript" language="javascript" src="jsme/jsme.nocache.js"></script>
+        
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        
+        <!--own style sheet -->
+        <link href="styles4.css" rel="stylesheet"/>
+        
+        <!-- Javascript for page -->
+        <script src="Rplan6.js"></script>
+               
+      
+    
+    </head>
+    <body>
+        
+        <h2> RPlanner Demo </h2>
+        
+        <div id ="wrapper">                               
+            <div id = "box">
+                <div id = "jsme_container"></div>  
+            </div>
+            <div id = "field-wrap">              
+                <div class="form-groups" style = "padding-top:10px;">
+                    <input autocomplete="off" autofocus class="form-control" name="Steps" placeholder="Number of Steps" type="text" id = "steps"/>
+                </div>
+                <button class="btn btn-default" type="submit" id = "generate">
+                        <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
+                        Generate
+                </button>
+            </div>           
+        </div>   
+    </body>
+</html>
