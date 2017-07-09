@@ -1,0 +1,2 @@
+# RPlan_live1
+First working live version of RPlan with complete front and back-ends (Javascript, PHP and MySQL). Also written using Bootstrap - so mobile ready. Still limitations with website however - security issues if two users register with the same username, the most recent registration password overwriting the first. Sometimes problems retrieving molecular weights for compounds via AJAX. CSS and look of website also can be improved. 
